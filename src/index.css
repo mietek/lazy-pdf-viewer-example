@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.scroller-frame {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  box-sizing: border-box;
+}
+
+.pdf-page {
+  border-top: 1px #ccc solid;
+  box-sizing: border-box;
+}
+
+.scroller-tile:last-of-type .pdf-page {
+  border-bottom: 1px #ccc solid;
+}
